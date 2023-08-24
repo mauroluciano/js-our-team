@@ -32,4 +32,8 @@ const team = [
   },
 ];
 
-console.log(team);
+const theTeam = document.getElementById("theTeam");
+
+for (const myTeam of team) {
+  theTeam.innerHTML += "Nome: " + myTeam.name + " <br/>";
+}
