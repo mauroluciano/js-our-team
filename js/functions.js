@@ -36,7 +36,7 @@ const theTeam = document.getElementById("theTeam");
 
 for (const myTeam of team) {
   theTeam.innerHTML += `
-    <div class="container">
+    <div class="cards">
       <h2>${myTeam.name}</h2>
       <p>${myTeam.position}</p>
       <p>${myTeam.pic}</p>
