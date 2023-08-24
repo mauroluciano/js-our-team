@@ -35,5 +35,12 @@ const team = [
 const theTeam = document.getElementById("theTeam");
 
 for (const myTeam of team) {
-  theTeam.innerHTML += "Nome: " + myTeam.name + " <br/>";
+  theTeam.innerHTML += `
+    <div>
+      <h2>${myTeam.name}</h2>
+      <p>${myTeam.position}</p>
+      <p>${myTeam.pic}</p>
+    </div>
+    `;
 }
+//"Nome: " + myTeam.name + " <br/>"
