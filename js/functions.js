@@ -36,16 +36,15 @@ const theTeam = document.getElementById("theTeam");
 
 for (const myTeam of team) {
   theTeam.innerHTML += `
-  <div class="row">
-  <div class="col">
-    <div class="card">
+  <div class="col-3">
+    <div class="card mt-3">
     <img src="./img/${myTeam.pic}" />
 
       <h2>${myTeam.name}</h2>
       <p>${myTeam.position}</p>
     </div>
     </div>
-    </div>  
+
     `;
 }
 //"Nome: " + myTeam.name + " <br/>"
