@@ -39,9 +39,10 @@ for (const myTeam of team) {
   <div class="row">
   <div class="col">
     <div class="card">
+    <img src="./img/${myTeam.pic}" />
+
       <h2>${myTeam.name}</h2>
       <p>${myTeam.position}</p>
-      <p>${myTeam.pic}</p>
     </div>
     </div>
     </div>  
